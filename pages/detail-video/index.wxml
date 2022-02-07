@@ -1,0 +1,12 @@
+<!--pages/detail-video/index.wxml-->
+<view class="detail-video">
+  <video class="video" 
+         src="{{MVURL.url}}"
+         autoplay="{{true}}"
+         loop="{{true}}"
+   />
+   <view class="mv-detail">
+    <view class="mv-name">{{MVDetail.name}}</view>
+    <view class="mv-artist">演唱者：{{MVDetail.artistName}}</view>
+   </view>
+</view>

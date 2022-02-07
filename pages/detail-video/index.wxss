@@ -1,0 +1,24 @@
+/* pages/detail-video/index.wxss */
+page {
+  padding-top: 225px;
+}
+
+.detail-video .video {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.detail-video .mv-detail .mv-name {
+  padding: 20rpx 0;
+  font-size: 40rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.detail-video .mv-detail .mv-artist {
+  padding: 0 0 20rpx 0;
+}
